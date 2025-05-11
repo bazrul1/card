@@ -51,7 +51,7 @@ class _WorkState extends State<Work> {
               left: 30,
               child: Container(
                 child: Text(
-                  "The appears",
+                  "The appears \nIf you'd like",
                   style: TextStyle(
                     color: const Color.fromARGB(255, 174, 172, 172),
                   ),
@@ -59,19 +59,7 @@ class _WorkState extends State<Work> {
               ),
             ),
 
-            Positioned(
-              top: 85,
-              left: 30,
-              child: Container(
-                child: Text(
-                  "If you'd like ",
-                  style: TextStyle(
-                    color: const Color.fromARGB(255, 174, 172, 172),
-                  ),
-                ),
-              ),
-            ),
-
+           
             Positioned(
               top: 115,
               left: 30,
