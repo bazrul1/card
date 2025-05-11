@@ -1,6 +1,6 @@
 // import 'package:card_apk/makeccard.dart';
-import 'package:card_apk/work.dart';
-// import 'package:card_apk/cardgpt.dart';
+// import 'package:card_apk/work.dart';
+import 'package:card_apk/cardgpt.dart';
 import 'package:flutter/material.dart';
 
 class Homepage extends StatefulWidget {
@@ -18,7 +18,7 @@ class _HomepageState extends State<Homepage> {
         title: Text("CARD APK"),
         backgroundColor: const Color.fromARGB(255, 172, 206, 176),
       ),
-      body: Work(),
+      body: Cardgpt(),
     );
   }
 }
